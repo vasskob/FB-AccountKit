@@ -32,5 +32,7 @@
     <string name="phone_number_warn">Please login via Phone</string>
     <string name="lb_basic_ui">Basic UI</string>
     <string name="lb_advanced_ui">Advanced UI</string>
+    <string name="settings_deleted">Settings with key have been deleted. Key = </string>
+    <string name="user_nick_name">User NickName from saved Settings</string>
 
 </resources>

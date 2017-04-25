@@ -148,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
             configBuilder.setUIManager(uiManager);
         }
         configBuilder.setUIManager(uiManager);
+
         return configBuilder;
 
     }

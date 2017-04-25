@@ -110,7 +110,7 @@ class MyAdvancedUIManager extends BaseUIManager {
         switch (state) {
             case PHONE_NUMBER_INPUT:
                 prefix = "Custom Footer Phone Input ";
-                height = 70;
+                height = 60;
                 break;
             case EMAIL_INPUT:
                 prefix = "Custom Footer  EMAIL Input ";
@@ -168,7 +168,7 @@ class MyAdvancedUIManager extends BaseUIManager {
         switch (state) {
             case PHONE_NUMBER_INPUT:
                 prefix = "Custom Body Phone Input ";
-                height = 70;
+                height = 20;
                 break;
             case EMAIL_INPUT:
                 prefix = "Custom Body  EMAIL Input ";
