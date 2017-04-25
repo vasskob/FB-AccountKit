@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <Switch
+        android:id="@+id/ui_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/ui_switch"
+        android:layout_toStartOf="@+id/ui_switch"
+        android:text="@string/lb_basic_ui"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/ui_switch"
+        android:layout_toRightOf="@+id/ui_switch"
+        android:text="@string/lb_advanced_ui"/>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ui_switch"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/btn_phone_login"
+            style="@style/AccountKit.BorderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/log_in_phone_button"/>
+
+          <Button
+            android:id="@+id/btn_email_login"
+            style="@style/AccountKit.BorderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/log_in_email_button"/>
+
+    </RelativeLayout>
+</RelativeLayout>

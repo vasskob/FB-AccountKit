@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FB Account Kit</string>
+    <string name="FACEBOOK_APP_ID">1864650657108614</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">1ddda6d939a2f0ab6ce91636ab97e1db</string>
+    <string name="ak_login_protocol_scheme">ak1864650657108614</string>
+    <string name="log_out_button">Logout</string>
+    <string name="error_label">Error</string>
+    <string name="loading_placeholder">Loading&#8230;</string>
+    <string name="na">NA</string>
+
+    <string name="action_bar_title_hello">Hello</string>
+    <string name="permissions_get_accounts_message">
+        Grant permission to read your email address from your device to pre-fill.
+    </string>
+    <string name="permissions_get_accounts_title">Read Email Address</string>
+    <string name="permissions_read_phone_state_message">
+        Grant permission to read your phone number from your device to pre-fill.
+    </string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message">
+        Grant permission to read your SMS code from your device to pre-fill.
+    </string>
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+    <string name="log_in_email_button">Log In via Email</string>
+    <string name="log_in_phone_button">Log In via Phone</string>
+
+    <string name="user_id_label">Account ID</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="email_label">Email</string>
+    <string name="error_toast">Error when getting Account</string>
+    <string name="email_warn">Please login via Email</string>
+    <string name="phone_number_warn">Please login via Phone</string>
+    <string name="lb_basic_ui">Basic UI</string>
+    <string name="lb_advanced_ui">Advanced UI</string>
+
+</resources>
