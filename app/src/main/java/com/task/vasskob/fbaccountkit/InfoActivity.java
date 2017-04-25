@@ -49,21 +49,6 @@ public class InfoActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.infro_activity);
         ButterKnife.bind(this);
-
-        // Load all preferences for this account:
-        AccountKit.getAccountPreferences().loadPreferences(new PrefsLoadListener());
-
-        // Set a preference:
-        AccountKit.getAccountPreferences().setPreference("nickname", "VAsskob", new PrefSetListener());
-
-        // Load a specific preference by key
-        AccountKit.getAccountPreferences().loadPreference("nickname", new SinglePrefLoadListener());
-
-
-        // Delete a preference:
-        AccountKit.getAccountPreferences().deletePreference("keyForDelete ", new PrefDeleteListener());
-
-
     }
 
     @Override
@@ -90,6 +75,21 @@ public class InfoActivity extends Activity {
                 Toast.makeText(InfoActivity.this, R.string.error_toast, Toast.LENGTH_SHORT).show();
             }
         });
+
+        saveAndLoadApiSettings();
+    }
+
+///////////////////////////////  API Account Preferences /////////////////////////////////////
+
+    private void saveAndLoadApiSettings() {
+        // Load all preferences for this account:
+        AccountKit.getAccountPreferences().loadPreferences(new PrefsLoadListener());
+        // Set a preference:
+        AccountKit.getAccountPreferences().setPreference("nickname", "VAsskob", new PrefSetListener());
+        // Load a specific preference by key
+        AccountKit.getAccountPreferences().loadPreference("nickname", new SinglePrefLoadListener());
+        // Delete a preference:
+        AccountKit.getAccountPreferences().deletePreference("keyForDelete ", new PrefDeleteListener());
     }
 
 
